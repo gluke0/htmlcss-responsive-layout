@@ -5,3 +5,112 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* utility */
+
+.flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.jc-sbtw{
+    justify-content: space-between;
+}
+
+.jc-center{
+    justify-content: center;
+}
+
+.ai-center{
+    align-items: center;
+}
+
+.realtive{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-90{
+    width: 90%;
+}
+
+.w-85{
+    width: 85%;
+}
+
+.auto{
+    margin: 0 auto;
+}
+
+.mar-t-40{
+    margin-top: 40px;
+}
+
+.mar-b-80{
+    margin-bottom: 80px;
+}
+
+.pad-t-40{
+    padding-top: 40px;
+}
+
+.pad-b-40{
+    padding-bottom: 40px;
+}
+
+.txt-al-center{
+    text-align: center;
+}
+
+/* header */
+
+header{
+    background-color: rgb(52, 133, 245);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999999;
+    color: white;
+    padding: 10px 15px;
+}
+
+.menu{
+    display: none;
+}
+
+
+/* main */
+
+/* application */
+
+/* planning */
+
+/* partners */
+
+/* benefits */
+
+/* about us */
+
+/* get started */
+
+
+/* footer */
+footer{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+
+/* media query */
