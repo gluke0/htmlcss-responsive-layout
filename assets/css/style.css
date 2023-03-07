@@ -311,6 +311,54 @@ img{
 }
 
 /* about us */
+#aboutus{
+    padding: 2.3rem;
+}
+
+#aboutus h2{
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+    color: rgb(149, 148, 222);
+    font-size: 4rem;
+}
+
+#aboutus p{
+    line-height: 40px;
+}
+
+#aboutus p:nth-child(3){
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+#aboutus img{
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 190px;
+    aspect-ratio: 1;
+}
+
+.help{
+    color: rgb(149, 148, 222);
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#aboutus button{
+    background-color: rgb(149, 148, 222);
+    padding: 0.8rem 2.2rem;
+    border-radius: 1.5rem;
+    border: none;
+}
+
+#aboutus button a{
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
 
 /* get started */
 .getstarted{
