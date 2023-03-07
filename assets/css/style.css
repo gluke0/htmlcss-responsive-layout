@@ -506,6 +506,17 @@ footer{
     .partcard img{
         margin-right: 1.3rem;
     }
+
+    .allcards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card-ben{
+        width: calc(100% / 2 - 3%);
+    }
+
 }
 
 /* desktop */
@@ -532,6 +543,16 @@ footer{
 
     .col-white-img{
         width: 50%;
+    }
+
+    .allcards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card-ben{
+        width: calc(100% / 3 - 3%);
     }
 
 }
