@@ -192,10 +192,6 @@ header{
     text-decoration: none;
 }
 
-.fa-apple{
-    margin-right: 10px;
-}
-
 .card img{
     margin-top: 1.25rem;
 }
@@ -209,6 +205,22 @@ img{
     font-size: 3rem;
 }
 
+.fa-apple{
+    margin-right: 10px;
+}
+
+.big div:nth-child(3){
+    margin-top: 2rem;
+}
+
+.small i, h2{
+    margin-bottom: 2rem;
+}
+
+#application p{
+    line-height: 35px;
+}
+
 /* planning */
 #planning{
     background-color: rgb(149, 148, 222);
@@ -219,6 +231,7 @@ img{
 #planning img{
     width: 100%;
 }
+
 
 #planning .col{
     padding: 2rem;
