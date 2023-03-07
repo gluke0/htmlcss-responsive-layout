@@ -243,6 +243,10 @@ img{
     border-radius: 0.9rem;
 }
 
+.col-white img{
+    margin-bottom: 2rem;
+}
+
 .buttonviolet{
     background-color: rgb(149, 148, 222);
     border-radius: 50%;
