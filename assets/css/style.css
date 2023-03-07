@@ -517,6 +517,19 @@ footer{
         width: calc(100% / 2 - 3%);
     }
 
+    #aboutus .container{
+        display: flex;
+    }
+
+    .img-au{
+        padding-top: 3.5rem;
+        margin-left: 3rem;
+    }
+
+    .img-au div{
+        font-size: 1.5rem;
+    }
+
 }
 
 /* desktop */
