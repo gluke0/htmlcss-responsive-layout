@@ -308,4 +308,17 @@ footer{
     #application .card:first-child{
         display: flex;
     }
+
+    #planning .col{
+        flex-basis: 50%;
+    }
+
+    .col-white{
+        align-self: flex-end;
+    }  
+
+    .col-white-img{
+        width: 50%;
+    }
+
 }
