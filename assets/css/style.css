@@ -119,6 +119,17 @@ header{
     color: white;
 }
 
+.menu button{
+    border: none;
+    padding: 0.4rem 1.5rem;
+    background-color: white;
+    border-radius: 1.5rem;
+}
+
+.menu button a{
+    color: black;
+}
+
 /* main */
 
 /* application */
@@ -408,16 +419,17 @@ img{
 
 
 /* get started */
-.getstarted{
+#getstarted{
     background-color: rgb(149, 148, 222);
     color: white;
+    padding: 2.3rem;
 }
 
 .opacy{
     opacity: 0.6;
 }
 
-.getstarted h2{
+#getstarted h2{
     font-size: 2.5rem;
 }
 
@@ -438,7 +450,7 @@ img{
     font-size: 1.5rem;
 }
 
-.getstarted i{
+#getstarted i{
     font-size: 0.4rem;
 }
 
@@ -451,6 +463,7 @@ img{
 footer{
     background-color: rgb(51, 51, 51);
     color: white;
+    padding: 2.3rem;
 }
 
 /* media query */
@@ -474,7 +487,7 @@ footer{
     }  
 
     #application img{
-        width: 110%;
+        width: 100%;
     }
 
     .partcard{
@@ -499,6 +512,10 @@ footer{
 
     #aboutus .container{
         display: flex;
+    }
+
+    #aboutus button a{
+        font-size: 0.8rem;
     }
 
     .img-au{
@@ -530,6 +547,10 @@ footer{
 
     #application .card:first-child{
         display: flex;
+    }
+
+    #application img{
+        width: 100%;
     }
 
     #planning .col{
