@@ -446,7 +446,7 @@ img{
 }
 
 .getstarted h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .free{
@@ -577,6 +577,16 @@ footer{
 
     .card-ben{
         width: calc(100% / 3 - 3%);
+    }
+
+    .container, .container-1000{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .containersmall{
+        padding-left: 18rem;
+        padding-right: 18rem;
     }
 
 }
