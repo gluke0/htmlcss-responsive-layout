@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Golos+Text&display=swap');
+
+*{
+    font-family: "Golos Text", sans-serif;
+}
 
 /* utility */
 
