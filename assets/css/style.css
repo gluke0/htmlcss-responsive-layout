@@ -114,9 +114,11 @@
 }
 
 
+/* body */
 body{
     width: 100%;
 }
+
 
 /* header */
 header{
@@ -127,7 +129,7 @@ header{
     left: 0;
     z-index: 999999;
     color: white;
-    padding: 10px 15px;
+    padding: 1.20rem 2.5rem;
 }
 
 .menu{
@@ -138,8 +140,87 @@ header{
 /* main */
 
 /* application */
+#application{
+    padding: 2.3rem;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+.bbg{
+    background-color: rgb(188, 221, 252);
+    color: rgb(52, 133, 245);
+}
+
+.bt{
+    color: black;
+}
+
+.card{
+    flex-basis: 100%;
+    padding: 1.5rem;
+    border-radius: 0.9rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#application .card:first-child{
+    text-align: left;
+    padding-bottom: 0;
+}
+
+#application .card:first-child i{
+   font-size: 1.25rem;
+}
+
+.card img{
+    margin-top: 1.25rem;
+}
+
+img{
+    width: 60%;
+    display: block;
+}
+
+.card i{
+    font-size: 3rem;
+}
 
 /* planning */
+#planning{
+    background-color: rgb(149, 148, 222);
+    color: white;
+    padding: 2.3rem;
+}
+
+#planning img{
+    width: 100%;
+}
+
+#planning .col{
+    padding: 2rem;
+}
+
+.container-1000{
+    max-width: 1000px;
+}
+
+.col-white{
+    background-color: white;
+    color: black;
+    border-radius: 0.9rem;
+}
+
+.buttonviolet{
+    background-color: rgb(149, 148, 222);
+    border-radius: 50%;
+    border: none;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 1.5rem;
+}
 
 /* partners */
 
@@ -148,7 +229,7 @@ header{
 /* about us */
 
 /* get started */
-.planning{
+.getstarted{
     background-color: rgb(149, 148, 222);
     color: white;
 }
@@ -157,7 +238,7 @@ header{
     opacity: 0.6;
 }
 
-.planning h2{
+.getstarted h2{
     font-size: 2rem;
 }
 
@@ -178,7 +259,7 @@ header{
     font-size: 1.5rem;
 }
 
-.planning i{
+.getstarted i{
     font-size: 0.4rem;
 }
 
@@ -194,3 +275,37 @@ footer{
 }
 
 /* media query */
+
+/* tablet */
+@media screen and (min-width: 768px){
+    #application .card:first-child{
+        display: flex;
+    }
+
+    #application .container{
+        justify-content: space-between;
+    }
+
+    .card{
+        flex-basis: calc(100% / 3 - 2%);
+    }
+
+    #application .card:first-child{
+        flex-basis: calc(66.66% - 1%);
+    }    
+}
+
+/* desktop */
+@media screen and (min-width: 998px){
+    .menu{
+        display: block;
+    }
+
+    header nav i{
+        display: none;
+    }
+
+    #application .card:first-child{
+        display: flex;
+    }
+}
