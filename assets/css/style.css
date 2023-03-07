@@ -43,18 +43,6 @@
     position: absolute;
 }
 
-.w-100{
-    width: 100%;
-}
-
-.w-90{
-    width: 90%;
-}
-
-.w-85{
-    width: 85%;
-}
-
 .auto{
     margin: 0 auto;
 }
@@ -67,14 +55,6 @@
     margin-top: 40px;
 }
 
-.mar-t-50{
-    margin-top: 50px;
-}
-
-.mar-t-60{
-    margin-top: 60px;
-}
-
 .mar-t-80{
     margin-top: 80px;
 }
@@ -85,14 +65,6 @@
 
 .mar-b-40{
     margin-bottom: 40px;
-}
-
-.mar-b-50{
-    margin-bottom: 50px;
-}
-
-.mar-b-60{
-    margin-bottom: 60px;
 }
 
 .mar-b-80{
@@ -501,6 +473,10 @@ footer{
         flex-basis: calc(66.66% - 1%);
     }  
 
+    #application img{
+        width: 110%;
+    }
+
     .partcard{
         display: flex;
         align-items: center;
@@ -533,7 +509,6 @@ footer{
     .img-au div{
         font-size: 1.5rem;
     }
-
 }
 
 /* desktop */
