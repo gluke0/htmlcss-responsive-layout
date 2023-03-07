@@ -232,6 +232,15 @@ img{
     width: 100%;
 }
 
+.planning{
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+}
+
+#planning p{
+    line-height: 35px;
+}
 
 #planning .col{
     padding: 2rem;
@@ -255,12 +264,29 @@ img{
     width: 50px;
     line-height: 50px;
     font-size: 1.5rem;
+    margin-top: 2rem;
 }
 
 /* partners */
 #partners{
     padding: 2.3rem;
+}
 
+#partners h5{
+    margin-top: 2.3rem;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+}
+
+#partners h2{
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: rgb(149, 148, 222);
+}
+
+#testimonial p{
+    line-height: 35px;
+    margin-bottom: 3rem;
 }
 
 #partners img{
@@ -291,6 +317,12 @@ img{
     font-family: "Font Awesome 6 Free";
     font-weight: 600;
     margin-left: 5px;
+}
+
+.quotes{
+    line-height: 35px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* benefits */
@@ -332,6 +364,10 @@ img{
     font-size: 3rem;
 }
 
+.card-ben p{
+    line-height: 30px;
+}
+
 #benefits button{
     background-color: rgb(149, 148, 222);
     padding: 0.8rem 2.2rem;
@@ -370,7 +406,7 @@ img{
     width: 100%;
     border-radius: 50%;
     object-fit: cover;
-    width: 190px;
+    width: 220px;
     aspect-ratio: 1;
 }
 
