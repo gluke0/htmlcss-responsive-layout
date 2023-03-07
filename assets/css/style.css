@@ -223,8 +223,92 @@ img{
 }
 
 /* partners */
+#partners{
+    padding: 2.3rem;
+
+}
+
+#partners img{
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 190px;
+    aspect-ratio: 1;
+}
+
+.partcard{
+    background-color: rgb(149, 148, 222);
+    margin-bottom: 2rem;
+    border-radius: 0.9rem;
+    padding: 2rem;
+    color: white;
+}
+
+.quotes:before{
+    content: "\f10d";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.quotes:after{
+    content: "\f10e";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    margin-left: 5px;
+}
 
 /* benefits */
+#benefits{
+    padding: 2.3rem;
+    background-color: rgb(149, 148, 222);
+}
+
+.card-ben{
+    background-color: white;
+    border-radius: 0.9rem;
+    padding: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.card-ben div, h3{
+    color: rgb(149, 148, 222);
+}
+
+.card-ben div{
+    margin-top: 1rem;
+    margin-bottom: 1.8rem;
+    font-size: 4rem;
+}
+
+#benefits h3{
+    font-size: 2rem;
+}
+
+#benefits p{
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+}
+
+#benefits h2{
+    margin-bottom: 4.3rem;
+    margin-top: 2rem;
+    color: white;
+    font-size: 3rem;
+}
+
+#benefits button{
+    background-color: rgb(149, 148, 222);
+    padding: 0.8rem 2.2rem;
+    border-radius: 1.5rem;
+    border: none;
+}
+
+#benefits button a{
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
 
 /* about us */
 
@@ -292,7 +376,17 @@ footer{
 
     #application .card:first-child{
         flex-basis: calc(66.66% - 1%);
-    }    
+    }  
+
+    .partcard{
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+
+    .partcard img{
+        margin-right: 1.3rem;
+    }
 }
 
 /* desktop */
