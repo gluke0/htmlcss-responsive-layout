@@ -35,7 +35,7 @@
     align-items: center;
 }
 
-.realtive{
+.relative{
     position: relative;
 }
 
@@ -399,6 +399,18 @@ img{
     object-fit: cover;
     width: 220px;
     aspect-ratio: 1;
+}
+
+.imgcircle{
+    display: inline-block;
+} 
+
+.fa-quote-left{
+    color: rgb(149, 148, 222);
+    font-size: 3.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .help{
